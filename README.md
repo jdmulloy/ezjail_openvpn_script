@@ -13,4 +13,5 @@ then tun device when the jail starts.
 
 # cron
 I use the following entry in cron to run the script.
+
     * * * * * /l/bin/fix_tun0.sh
